@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1300px) {
+  body {
+    background: green; } }
+@media only screen and (max-width: 320px) {
+  body {
+    background: red; } }
+
+/*# sourceMappingURL=inbuilt-functions.css.map */

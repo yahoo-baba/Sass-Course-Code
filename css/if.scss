@@ -1,0 +1,19 @@
+
+@mixin box($value){
+  @if $value == dark{
+    background: black;
+    color: #fff;
+  }
+  @else if $value == light{
+    background: lightgrey;
+    color: black;
+  }
+}
+
+.mybox{
+  @include box(dark);
+  padding: 20px;
+  margin: 100px;
+  width: 200px;
+  font-family: arial;
+}
